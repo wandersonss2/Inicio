@@ -1,10 +1,11 @@
 {% extends 'main.html' %} 
 
 {% block content %}
-
+ 
 <form name="form-usuario" id="formUsers" method="post" action="/loja/">
     <h2> Crie seu Usuário</h2>
-    <div>
+    <div class="form-group">
+
         {% csrf_token %}
         <input class="form-control mt-4" type="text" name="'name" id='name' placeholder="Nome: ">
         <input class="form-control mt-4" type="text" name="'user" id='user' placeholder="Sobrenome: ">

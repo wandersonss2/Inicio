@@ -1,5 +1,7 @@
+
+/* trabalhando o corpo do html */
 body{
-    background-color: #5d4769;
+    background-color: #131213;
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
@@ -7,9 +9,12 @@ body{
     justify-content: center;
     align-items: center;
     height: 100vh;
+    
+
 }
+/* arrumando o cabeçalho */
 header {
-    background-color: #333;
+    background-color: #b33737;
     padding: 20px;
     color: #fff;
     text-align: center;
@@ -23,31 +28,10 @@ header {
     padding: 20px;
   }
   
-  .rewards {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 20px;
-  }
-  
-  .reward {
-    background-color: #f4f4f4;
-    border: 1px solid #ccc;
-    padding: 20px;
-    width: 30%;
-    text-align: center;
-  }
-  
-  .reward h2 {
-    margin-top: 0;
-  }
-  
-  .reward p {
-    margin-bottom: 0;
-  }
-  
+  /* configurando e dando uma mexida nos  botões */
   .btn {
     background-color: #333;
-    color: #fff;
+    color: #fffdfd;
     padding: 10px 20px;
     text-decoration: none;
     border-radius: 4px;
@@ -60,17 +44,11 @@ header {
   .centered-btn {
     text-align: center;
   }
-  .login-button {
-    background-color: #333;
-    color: #fff;
-    padding: 10px 20px;
-    text-decoration: none;
-    border-radius: 4px;
-  }
 
+  /* mudando a cor e configurando o formulario de login */
   .login-container {
-    background-color: #f4f4f4;
-    border: 1px solid #ccc;
+    background-color: #e4e8e9;
+    border: 1px solid #05028e;
     padding: 20px;
     max-width: 400px;
     width: 100%;
@@ -81,9 +59,10 @@ header {
     margin-top: 0;
   }
   
+  /* trabalhando o formulario de login */
   .form-group {
     margin-bottom: 20px;
-    text-align: left;
+    text-align: center;
   }
   
   label {
@@ -91,6 +70,7 @@ header {
     margin-bottom: 5px;
   }
   
+  /* configurando os inputs para  gerar o alerta */
   input[type="text"],
   input[type="password"] {
     width: 100%;
@@ -98,7 +78,7 @@ header {
     border: 1px solid #ccc;
     border-radius: 4px;
   }
-  
+  /* configurando o botão de login */
   .login-button {
     background-color: #333;
     color: #fff;
@@ -107,3 +87,24 @@ header {
     border-radius: 4px;
     
   }
+
+  /*arrumando o formulario de usuarios*/
+
+.formUsers{
+  padding: 20px;
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+  border-radius: 4px;
+}
+
+/*definindo o a cor da letra do crie seu usuario*/
+h2 {
+  color: #ccc;
+}
+
+.tituloform{
+
+  color: #0b0b0b;
+
+}

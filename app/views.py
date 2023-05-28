@@ -18,3 +18,7 @@ def loja(request):
 def login(request):
 
     return render(request, 'login.html')
+
+def userpag(request):
+
+    return render(request, 'userpag.html')

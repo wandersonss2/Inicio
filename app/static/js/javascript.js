@@ -1,5 +1,5 @@
-(function (win, doc){
-    "use strict";
+$(document).ready(function() {
+    // Inicia o carrossel
+    $('.carousel').carousel();
+  });
 
-    alert("Hello World");
-})(window, document);

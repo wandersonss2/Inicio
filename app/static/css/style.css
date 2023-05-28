@@ -11,6 +11,10 @@ body{
     height: 100vh;
 }
 
+.carousel-item img {
+  width: 100%;
+  height: auto;
+}
 header{
     background-color: #262626;
     padding: 20px;
@@ -126,3 +130,15 @@ footer p {
   margin: 0;
 }
 
+.carousel-item img {
+  width: 30%;
+  height: 50px;
+
+}
+
+#carouselFooter {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}

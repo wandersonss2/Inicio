@@ -12,13 +12,6 @@ body{
     
 
 }
-/* arrumando o cabeçalho */
-header {
-    background-color: #b33737;
-    padding: 20px;
-    color: #fff;
-    text-align: center;
-  }
   
   h1 {
     margin: 0;
@@ -108,3 +101,20 @@ h2 {
   color: #0b0b0b;
 
 }
+
+/* Rodape */
+footer {
+  background-color: #262626;
+  padding: 20px;
+  color: #fff;
+  text-align: center;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+footer p {
+  margin: 0;
+}
+
